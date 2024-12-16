@@ -21,7 +21,7 @@ pipeline {
                     -Dsonar.sources=. \
                     -Dsonar.host.url=$SONAR_HOST_URL \
                     -Dsonar.token=$SONAR_AUTH_TOKEN \
-                    -Dsonar.projectBaseDir=/var/lib/jenkins/workspace/gitps-application
+                    -Dsonar.projectBaseDir=/var/lib/jenkins/workspace/gitops-application
                 '''
             }
         }
